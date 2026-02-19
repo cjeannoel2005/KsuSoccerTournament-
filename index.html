@@ -1,0 +1,220 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <header-container>
+        <!-- head
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+             <i
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <img id="header-img" src="img/soccer.jpg" height="20" width="20">
+        <link rel="stylesheet" href="styles.css">
+
+       <div class="header-item"> <title> ksu score the goals </title></div>
+        <!--<h3> this website is about the soccer tournament that will be taking place at kennesaw state University.
+            The fifth third staduim will the main location.
+        </h3> -->
+        <!-- the icon for the website link -->
+         <link rel="icon" href="img/soccer.jpg">
+
+        
+        <style>
+            /* Style rules go here. */
+          body{
+            background-color: lightslategrey;
+            font-family: cursive;
+          }
+            /* the title font */
+            h1{
+                font-style: italic;
+                color:yellow;
+            }
+        </style>
+    </header-container>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+        <div class="navbar">
+            
+            <ul> 
+            <li><a href="#about">about the event</a></li>
+            <li><a href="#expectation">What to expect</a></li>
+            <li><a href="#activity">event activity</a></li>
+            <li><a href="https://soccer.sincsports.com/events.aspx">college soccer</a></li>
+            <button id="theme-button" > Toggle dark mode </button>
+            </ul>
+        </div>
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <!-- the try for the icon page in the headrer-->
+        <!-- <link rel="icon" href="img/soccer.jpg"> -->
+
+        <img id="header-img" src="./img/logo500.png"/>
+        <h1 style="color: gold;"><strong>KSU Soccer Assiociation Championship</strong></h1>
+        <h3 style="color: green;"><i>Sweat makes the green grass grow</i></h3>
+        <img  height="400"  alt="a soccer boot holding a soccer ball" src="./img/soccer.jpg"/>
+        <h2>Soccer</h2>
+        <button style="color: red;" type="button"> view schedule</button>
+        <button style="color:red;" type="button">Buy tickets</button>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <section id="about">
+        <h2>About the Event</h2>
+
+        <iframe height="315" width="560" src="https://www.youtube.com/embed/AN7zsQKsv_I?si=u7dUhsPx-9FnI8_F"></iframe>
+        <p>Kennesaw State University is hosting an exciting intercollegiate soccer tournament, 
+            bringing together teams from various universities to compete for the championship title.
+            The tournament will feature intense matchups, showcasing student-athletes' skills</p>
+        <p>Event description </p>
+        </section>
+
+        <section id="expectation">
+        <h3>What to Expect</h3>
+        
+        <ul>
+            <li> <b></b> <i>fun </i></li>
+            <li> <b></b> <i>fitness</i></li>
+            <li> <b></b> <i>community</i></li>
+        </ul>
+        </section>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+
+        <h2>Event Schedule</h2>
+
+        <!--<img height="400" alt="a guy kicking a soccer ball" src="img/soccer.jpg"/>-->
+        <section id="activity">
+        <h3> Activity 1</h3>
+        <img height="350" with="300" alt="soccer image" src="img/pexels-pixabay-47354.jpg"/>
+        <p>This will be a game of kick assassin.If you kick the ball and hit someone they are out but if you catch and control it you can stay in the game.</p>
+            
+        <!--<img alt="Image description" src="./img/example.png"/> -->
+     <h3> Activity 2</h3>
+        <img height="350" width="300" alt="soccer" src="img/soccer.jpg"/>
+        <p>This activity will consist of one defender agaisnt an attacker.If they score the defender is out but if the ball is taken then the defender wins</p>
+</section>
+        
+
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+         <!-- RSVP Section -->
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <p id="rsvp-count">⭐ 3 soccer fans have RSVP'd to this event!</p>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            <p>Join us for the most exciting college soccer tournament of the year! 
+            RSVP now to get updates about the event schedule, special offers, 
+            and exclusive content. Don't miss your chance to see the best college 
+            soccer teams compete at Kennesaw State University!</p>
+        </div>
+        <div class="rsvp-participants">
+            <p>⚽ Alex from Georgia has RSVP'd.</p>
+            <p>⚽ Maria from Florida has RSVP'd.</p>
+            <p>⚽ James from Alabama has RSVP'd.</p>
+        </div>
+    </div>
+
+    <div class="rsvp-container">
+        <form id="rsvp-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="state">Home State:</label>
+            <input type="text" id="state" name="state" required>
+            
+            <button type="submit" id="rsvp-button">Submit RSVP</button>
+        </form>
+    </div>     
+    <div id="rsvp-participants"></div> 
+</div>
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 style="color: green;">  Links</h2>
+        <h3>These link  similar tournamnent happening in Georgia</h3>
+        <!-- this is the link to other similar articles -->
+         
+        <a><article>
+            <h3><a href="https://albioncup.com/atlanta/"> tournamnets near atlanta </a></h3>
+         </a></article> 
+        <h3><a href="https://www.georgiasoccer.org/sanctioned-tournaments/">Georgia soccer tournaments</a></h3>
+         <p> these link will take you to past or future tournaments similar to the one found in this site in the atlanta area.</p>
+        <a></a>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://soccer.sincsports.com/events.aspx">
+            <article>
+                <h3>college soccer</h3>
+                <p>Link description</p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+         <!-- the script is linked to the javasscript file -->
+        <script src="index.js"></script>
+
+          <!-- the modal -->
+          <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <button id="close-modal" class="modal-close">×</button>
+                <div class="modal-item">
+                    <p id="modal-text">this will serve as the place holder text</p>
+                </div>
+                <div class="modal-item">
+                    <img id="modal-image" src="img/celebration.png" alt="Celebration">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
